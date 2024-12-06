@@ -1,0 +1,31 @@
+HTTrack3.49-2+htsswf+htsjava launched on Wed, 27 Nov 2024 17:56:40 at https://seoc-html-v2.vercel.app/index3.html +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "en, *" https://seoc-html-v2.vercel.app/index3.html -O1 "C:\My Web Sites\brandmarkwebsite" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+17:58:06	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/index1.html (from https://seoc-html-v2.vercel.app/index3.html)
+18:01:01	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/features.html (from https://seoc-html-v2.vercel.app/index3.html)
+18:01:01	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/service.html (from https://seoc-html-v2.vercel.app/index3.html)
+18:01:01	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/service-left.html (from https://seoc-html-v2.vercel.app/index3.html)
+18:01:01	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/service-right.html (from https://seoc-html-v2.vercel.app/index3.html)
+18:01:01	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/service-single.html (from https://seoc-html-v2.vercel.app/index3.html)
+18:01:01	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/case-left.html (from https://seoc-html-v2.vercel.app/index3.html)
+18:01:01	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/case-right.html (from https://seoc-html-v2.vercel.app/index3.html)
+18:01:01	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/mailto (from https://seoc-html-v2.vercel.app/index3.html)
+18:01:01	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/assets/css/fonts/fa-brands-400.ttf (from https://seoc-html-v2.vercel.app/assets/css/plugins/fontawesome.css)
+18:01:01	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/assets/css/fonts/fa-duotone-900.woff2 (from https://seoc-html-v2.vercel.app/assets/css/plugins/fontawesome.css)
+18:01:01	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/assets/css/fonts/fa-duotone-900.ttf (from https://seoc-html-v2.vercel.app/assets/css/plugins/fontawesome.css)
+18:01:01	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/assets/css/fonts/fa-light-300.woff2 (from https://seoc-html-v2.vercel.app/assets/css/plugins/fontawesome.css)
+18:01:01	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/assets/css/fonts/fa-light-300.ttf (from https://seoc-html-v2.vercel.app/assets/css/plugins/fontawesome.css)
+18:01:01	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/assets/css/fonts/fa-regular-400.ttf (from https://seoc-html-v2.vercel.app/assets/css/plugins/fontawesome.css)
+18:01:01	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/assets/css/fonts/fa-solid-900.ttf (from https://seoc-html-v2.vercel.app/assets/css/plugins/fontawesome.css)
+18:01:01	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/assets/css/fonts/fa-thin-100.woff2 (from https://seoc-html-v2.vercel.app/assets/css/plugins/fontawesome.css)
+18:01:01	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/assets/css/fonts/fa-thin-100.ttf (from https://seoc-html-v2.vercel.app/assets/css/plugins/fontawesome.css)
+18:01:01	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/assets/css/webfofontsnts/fa-v4compatibility.ttf (from https://seoc-html-v2.vercel.app/assets/css/plugins/fontawesome.css)
+18:01:01	Error: 	"Not Found" (404) at link https://seoc-html-v2.vercel.app/assets/css/plugins/owl.video.play.png (from https://seoc-html-v2.vercel.app/assets/css/plugins/owlcarousel.min.css)
+
+HTTrack Website Copier/3.49-2 mirror complete in 4 minutes 21 seconds : 692 links scanned, 671 files written (27483423 bytes overall) [22929993 bytes received at 87854 bytes/sec], 6819573 bytes transferred using HTTP compression in 210 files, ratio 15%
+(20 errors, 0 warnings, 0 messages)
