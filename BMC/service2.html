@@ -63,10 +63,20 @@
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
   pointer-events: none; /* Allows interaction with the underlying link */
 }
+.blog-author-boxarea .img1 {
+    width: 100%; /* Ensures the container spans the full width */
+    height: 200px; /* Fixed height for all image containers */
+    overflow: hidden; /* Ensures no overflow */
+    display: flex;
+    justify-content: center; /* Center image horizontally */
+    align-items: center; /* Center image vertically */
+}
 
-
-
-
+.blog-author-boxarea .img1 img {
+width: 100%;
+height: 100%;
+object-fit: cover; /* Ensures the image fills the container without distortion */
+}
 
 </style>
 <body class="homepage1-body">
@@ -248,99 +258,74 @@
 </div>
 <!--===== HERO AREA ENDS =======-->
 
-<!--===== SERVICE AREA STARTS =======-->
-<div class="service1-section-area sp2">
+    <!--===== BLOG AREA STARTS =======-->
+<div class="blog1-scetion-area sp1 bg2">
     <div class="container">
-      <div class="row">
-        <div class="col-lg-12">
-          <div class="service-all-boxes-area1">
-            <div class="row">
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-boxarea">
-                        <a href="#">Hoardings</a>
-                        <div class="space40"></div>
-                        <img src="assets/img/icons/service-icon1.svg" alt="">
-                        <div class="space40"></div>
-                        <p>Enhance your online visibility & drive organic traffic with our advanced SEO techniques. We optimize your website to rank higher.</p>
-                      </div>
-                </div>
-           
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-boxarea">
-                        <a href="#">Unipoles</a>
-                        <div class="space40"></div>
-                        <img src="assets/img/icons/service-icon2.svg" alt="">
-                        <div class="space40"></div>
-                        <p>Reach your audience instantly and drive qualified leads with targeted PPC campaigns. Our experts craft compelling ad copy and optimize.</p>
-                      </div>
-                </div>
-      
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-boxarea">
-                        <a href="#">Kiosk</a>
-                        <div class="space66"></div>
-                        <img src="assets/img/icons/service-icon3.svg" alt="">
-                        <div class="space40"></div>
-                        <p>Build a strong brand presence and engage with your audience on social media platforms. We create strategic social media campaigns </p>
-                      </div>
-                </div>
-      
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-boxarea">
-                        <a href="#">Mobile Hoardings & Carter Activity</a>
-                        <div class="space40"></div>
-                        <img src="assets/img/icons/service-icon4.svg" alt="">
-                        <div class="space40"></div>
-                        <p>Make a lasting impression with a professionally designed and user-friendly website. Our web design and development services ensure.</p>
-                      </div>
-                </div>
-
-                <div class="col-lg-3 col-md-6">
-                    <div class="service-boxarea">
-                        <a href="#">Other Outdoor Branding</a>
-                        <div class="space40"></div>
-                        <img src="assets/img/icons/service-icon15.svg" alt="">
-                        <div class="space40"></div>
-                        <p>We craft compelling content that educates, entertains, and inspires your audience, driving engagement and building brand loyalty. </p>
-                      </div>
-                </div>
-       
-              <!-- <div class="col-lg-3 col-md-6">
-            <div class="service-boxarea">
-                <a href="#">Email Marketing</a>
-                <div class="space40"></div>
-                <img src="assets/img/icons/service-icon16.svg" alt="">
-                <div class="space40"></div>
-                <p>We design and implement effective email marketing campaigns to nurture leads, promote products or services, and drive conversions.</p>
-              </div>
+        <div class="row">
+        <div class="col-lg-4 col-md-6">
+            <div class="blog-author-boxarea">
+            <div class="img1">
+                <img src="assets/images/icon/hoardings.jpg" alt="Social Media Marketing">
+            </div>
+            <div class="content-area">
+                <a href="#">Hoardings</a>
+                <p>Enhance your online visibility & drive organic traffic with our advanced SEO techniques. We optimize your website to rank higher.</p>
+            </div>
+            </div>
+            <div class="space30"></div>
         </div>
-
-        <div class="col-lg-3 col-md-6">
-            <div class="service-boxarea">
-                <a href="#">Analytics And Reporting</a>
-                <div class="space40"></div>
-                <img src="assets/img/icons/service-icon17.svg" alt="">
-                <div class="space40"></div>
-                <p>We track and measure the performance of your digital marketing campaigns using advanced analytics tools. </p>
-              </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="blog-author-boxarea">
+            <div class="img1">
+                <img src="assets/images/icon/unipole.jpg" alt="PPC (Google Adwards)">
+            </div>
+            <div class="content-area">
+                <a href="#">Unipoles</a>
+                <p>Reach your audience instantly and drive qualified leads with targeted PPC campaigns. Our experts craft compelling ad copy and optimize.</p>
+            </div>
+            </div>
+            <div class="space30"></div>
         </div>
-
-        <div class="col-lg-3 col-md-6">
-            <div class="service-boxarea">
-                <a href="#">One Page SEO Optimization</a>
-                <div class="space40"></div>
-                <img src="assets/img/icons/service-icon18.svg" alt="">
-                <div class="space40"></div>
-                <p>We optimize key on-page elements of your website, including title tags, meta descriptions, headers, and content with your target keywords.</p>
-              </div>
-        </div> -->
-          </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="blog-author-boxarea">
+            <div class="img1">
+                <img src="assets/images/icon/kiosk.png" alt="SEO & SEM">
+            </div>
+            <div class="content-area">
+                <a href="#">kiosk</a>
+                <p>Build a strong brand presence and engage with your audience on social media platforms. We create strategic social media campaigns.</p>
+            </div>
+            </div>
+            <div class="space30"></div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="blog-author-boxarea">
+            <div class="img1">
+                <img src="assets/images/icon/mobiho.jpg" alt="Mobile Hoardings & Carter Activity">
+            </div>
+            <div class="content-area">
+                <a href="#">Mobile Hoardings & Carter Activity</a>
+                <p>Make a lasting impression with a professionally designed and user-friendly website. Our web design and development services ensure.</p>
+            </div>
+            </div>
+            <div class="space30"></div>
+        </div>
+        <div class="col-lg-4 col-md-6">
+            <div class="blog-author-boxarea">
+            <div class="img1">
+                <img src="assets/images/icon/branding.jpg" alt="Social Media Ad Campaign">
+            </div>
+            <div class="content-area">
+                <a href="#">Other Outdoor Branding</a>
+                <p>Enhance your online visibility & drive organic traffic with our advanced SEO techniques. We optimize your website to rank higher.</p>
+            </div>
+            </div>
+            <div class="space30"></div>
         </div>
         </div>
-      </div>
     </div>
-  </div>
-<!--===== SERVICE AREA ENDS =======-->
+</div>
+    <!--===== BLOG AREA ENDS =======-->
 
 <!--===== CTA AREA STARTS =======-->
 <div class="cta-section-area">
