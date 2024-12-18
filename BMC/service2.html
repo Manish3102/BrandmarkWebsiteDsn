@@ -20,335 +20,368 @@
     <link rel="stylesheet" href="assets/css/plugins/nice-select.css">
     <link rel="stylesheet" href="assets/css/main.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
-<script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
 
 
     <!--=====  JS SCRIPT LINK =======-->
     <script src="assets/js/plugins/jquery-3-6-0.min.js"></script>
 </head>
 <style>
- 
-  
-  .logo {
-    max-width: 220px; /* Restricts maximum width */
-    height: auto; /* Ensures aspect ratio is maintained */
-    filter: invert(1);  /* Inverts the colors */
+    .logo {
+        max-width: 220px;
+        /* Restricts maximum width */
+        height: auto;
+        /* Ensures aspect ratio is maintained */
+        filter: invert(1);
+        /* Inverts the colors */
 
-}
+    }
 
-.cs_bg_filed img {
-  width: 100%; /* Makes the image span the full width of its container */
-  height: auto; /* Maintains the aspect ratio */
-  display: block; /* Ensures proper layout */
-}
+    .cs_bg_filed img {
+        width: 100%;
+        /* Makes the image span the full width of its container */
+        height: auto;
+        /* Maintains the aspect ratio */
+        display: block;
+        /* Ensures proper layout */
+    }
 
 
-.cs_case_study_thumb {
-  position: relative;
-  display: block;
-  width: 300px; /* Set width of the element */
-  height: 200px; /* Set height of the element */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
+    .cs_case_study_thumb {
+        position: relative;
+        display: block;
+        width: 300px;
+        /* Set width of the element */
+        height: 200px;
+        /* Set height of the element */
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
 
-.cs_case_study_thumb::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 50%; /* Adjust fade height */
-  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
-  pointer-events: none; /* Allows interaction with the underlying link */
-}
-.blog-author-boxarea .img1 {
-    width: 100%; /* Ensures the container spans the full width */
-    height: 200px; /* Fixed height for all image containers */
-    overflow: hidden; /* Ensures no overflow */
-    display: flex;
-    justify-content: center; /* Center image horizontally */
-    align-items: center; /* Center image vertically */
-}
+    .cs_case_study_thumb::after {
+        content: "";
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        height: 50%;
+        /* Adjust fade height */
+        background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+        pointer-events: none;
+        /* Allows interaction with the underlying link */
+    }
 
-.blog-author-boxarea .img1 img {
-width: 100%;
-height: 100%;
-object-fit: cover; /* Ensures the image fills the container without distortion */
-}
+    .blog-author-boxarea .img1 {
+        width: 100%;
+        /* Ensures the container spans the full width */
+        height: 250px;
+        /* Fixed height for all image containers */
+        overflow: hidden;
+        /* Ensures no overflow */
+        display: flex;
+        justify-content: center;
+        /* Center image horizontally */
+        align-items: center;
+        /* Center image vertically */
+    }
 
+    .blog-author-boxarea .img1 img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        /* Ensures the image fills the container without distortion */
+    }
 </style>
+
 <body class="homepage1-body">
 
-<!--===== PRELOADER STARTS =======-->
-<div class="preloader">
-  <div class="loading-container">
-    <div class="loading"></div>
-    <div id="loading-icon"><img src="assets/images/circle.png" alt=""></div>
-  </div>
-</div>
-<!--===== PRELOADER ENDS =======-->
+    <!--===== PRELOADER STARTS =======-->
+    <div class="preloader">
+        <div class="loading-container">
+            <div class="loading"></div>
+            <div id="loading-icon"><img src="assets/images/circle.png" alt=""></div>
+        </div>
+    </div>
+    <!--===== PRELOADER ENDS =======-->
 
-<!--===== PROGRESS STARTS=======-->
-<div class="paginacontainer">
-     <div class="progress-wrap">
-       <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
-         <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98"/>
-       </svg>
-     </div>
-  </div>
-<!--===== PROGRESS ENDS=======-->
+    <!--===== PROGRESS STARTS=======-->
+    <div class="paginacontainer">
+        <div class="progress-wrap">
+            <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+            </svg>
+        </div>
+    </div>
+    <!--===== PROGRESS ENDS=======-->
 
     <!--=====HEADER START=======-->
     <header>
-      <div class="header-area homepage1 header header-sticky d-none d-lg-block " id="header">
-        <div class="container">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="header-elements">
-                <div class="site-logo">
-                  <a href="#"><img src="assets/images/logo.png" style="" class="logo" alt=""></a>
+        <div class="header-area homepage1 header header-sticky d-none d-lg-block " id="header">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="header-elements">
+                            <div class="site-logo">
+                                <a href="#"><img src="assets/images/logo.png" style="" class="logo" alt=""></a>
+                            </div>
+                            <div class="main-menu">
+                                <ul>
+                                    <li><a href="index.html">Home </i></a>
+                                    </li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li><a href="case.html">Services </i></a>
+                                    </li>
+                                    <li><a href="blog.html">Blog </i></a>
+                                    </li>
+                                    <li><a href="#">Contact Us</a></li>
+                                </ul>
+                            </div>
+                            <div class="btn-area">
+                                <div class="search-icon header__search header-search-btn">
+                                    <a href="#"><img src="assets/img/icons/search-icons1.svg" alt=""></a>
+                                </div>
+                                <!-- <a href="#" class="header-btn1">Free Consultation <span><i class="fa-solid fa-arrow-right"></i></span></a> -->
+                            </div>
+
+                            <div class="header-search-form-wrapper">
+                                <div class="tx-search-close tx-close"><i class="fa-solid fa-xmark"></i></div>
+                                <div class="header-search-container">
+                                    <form role="search" class="search-form">
+                                        <input type="search" class="search-field" placeholder="Search …" value=""
+                                            name="s">
+                                        <button type="submit" class="search-submit"><img
+                                                src="assets/img/icons/search-icons1.svg" alt=""></button>
+                                    </form>
+                                </div>
+                            </div>
+                            <div class="body-overlay"></div>
+                        </div>
+                    </div>
                 </div>
-                <div class="main-menu">
-                  <ul>
-                    <li><a href="index.html">Home </i></a>
-                    </li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="case.html">Services </i></a>
-                    </li>
-                    <li><a href="blog.html">Blog </i></a>
-                    </li>
-                    <li><a href="#">Contact Us</a></li>
-                  </ul>
-                </div>
-                <div class="btn-area">
-                  <div class="search-icon header__search header-search-btn">
-                    <a href="#"><img src="assets/img/icons/search-icons1.svg" alt=""></a>
-                  </div>
-                  <!-- <a href="#" class="header-btn1">Free Consultation <span><i class="fa-solid fa-arrow-right"></i></span></a> -->
-                </div>
-  
-                <div class="header-search-form-wrapper">
-                  <div class="tx-search-close tx-close"><i class="fa-solid fa-xmark"></i></div>
-                  <div class="header-search-container">
-                      <form role="search" class="search-form">
-                      <input type="search"  class="search-field" placeholder="Search …" value="" name="s">
-                      <button type="submit" class="search-submit"><img src="assets/img/icons/search-icons1.svg" alt=""></button>
-                      </form>
-                  </div>
-              </div>
-              <div class="body-overlay"></div>
-              </div>
             </div>
-          </div>
         </div>
-      </div>
     </header>
     <!--=====HEADER END =======-->
-  
-    <!--===== MOBILE HEADER STARTS =======-->
-  <div class="mobile-header mobile-haeder1 d-block d-lg-none">
-    <div class="container-fluid">
-      <div class="col-12">
-        <div class="mobile-header-elements">
-          <div class="mobile-logo">
-            <a href="#"><img src="assets/images/logo.png" style="height: 40px;" alt=""></a>
-          </div>
-          <div class="mobile-nav-icon dots-menu">
-            <i class="fa-solid fa-bars"></i>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  
-  <div class="mobile-sidebar mobile-sidebar1">
-    <div class="logosicon-area">
-      <div class="logos">
-        <img src="assets/images/logo.png" style="height: 40px;" alt="">
-      </div>
-      <div class="menu-close">
-        <i class="fa-solid fa-xmark"></i>
-      </div>
-     </div>
-    <div class="mobile-nav mobile-nav1">
-        <ul>
-          <li><a href="index.html">Home </i></a>
-          </li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="case.html">Services </i></a>
-          </li>
-          <li><a href="blog.html">Blog </i></a>
-          </li>
-          <li><a href="#">Contact Us</a></li>
-        </ul>
-    </div>
-  
-      <div class="allmobilesection">
-        <a href="#"  class="header-btn1">Get Started <span><i class="fa-solid fa-arrow-right"></i></span></a>
-        <div class="single-footer">
-          <h3>Contact Info</h3>
-          <div class="footer1-contact-info">
-            <div class="contact-info-single">
-              <div class="contact-info-icon">
-                <i class="fa-solid fa-phone-volume"></i>
-              </div>
-              <div class="contact-info-text">
-                <a href="tel:+3(924)4596512">+3(924)4596512</a>
-              </div>
-            </div>
-  
-            <div class="contact-info-single">
-              <div class="contact-info-icon">
-                <i class="fa-solid fa-envelope"></i>
-              </div>
-              <div class="contact-info-text">
-                <a href="mailto:info@example.com">info@example.com</a>
-              </div>
-            </div>
-  
-            <div class="single-footer">
-              <h3>Our Location</h3>
-              
-              <div class="contact-info-single">
-                <div class="contact-info-icon">
-                  <i class="fa-solid fa-location-dot"></i>
-                </div>
-                <div class="contact-info-text">
-                  <a href="mailto:info@example.com" >55 East Birchwood Ave.Brooklyn, <br> New York 11201,United States</a>
-                </div>
-              </div>
-  
-            </div>
-            <div class="single-footer">
-              <h3>Social Links</h3>
-              
-              <div class="social-links-mobile-menu">
-                <ul>
-                  <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                  <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
-                  <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
-                  <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-       </div>
-    </div>
-  </div>
-  
-  <!--===== MOBILE HEADER STARTS =======-->
 
-<!--===== HERO AREA STARTS =======-->
-<div class="about-header-area" style="background-image: url(assets/img/bg/inner-header.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
-    <img src="assets/img/elements/elements1.png" alt="" class="elements1 aniamtion-key-1">
-    <img src="assets/img/elements/star2.png" alt="" class="star2 keyframe5">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-5 m-auto">
-                <div class="about-inner-header heading9 text-center">
-                    <h1>Outdoor Campaign </h1>
-                    <a href="case.html">Home <i class="fa-solid fa-angle-right"></i> <span>Services</span></a>
+    <!--===== MOBILE HEADER STARTS =======-->
+    <div class="mobile-header mobile-haeder1 d-block d-lg-none">
+        <div class="container-fluid">
+            <div class="col-12">
+                <div class="mobile-header-elements">
+                    <div class="mobile-logo">
+                        <a href="#"><img src="assets/images/logo.png" style="height: 40px;" alt=""></a>
+                    </div>
+                    <div class="mobile-nav-icon dots-menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-</div>
-<!--===== HERO AREA ENDS =======-->
+
+    <div class="mobile-sidebar mobile-sidebar1">
+        <div class="logosicon-area">
+            <div class="logos">
+                <img src="assets/images/logo.png" style="height: 40px;" alt="">
+            </div>
+            <div class="menu-close">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+        <div class="mobile-nav mobile-nav1">
+            <ul>
+                <li><a href="index.html">Home </i></a>
+                </li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="case.html">Services </i></a>
+                </li>
+                <li><a href="blog.html">Blog </i></a>
+                </li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+
+        <div class="allmobilesection">
+            <a href="#" class="header-btn1">Get Started <span><i class="fa-solid fa-arrow-right"></i></span></a>
+            <div class="single-footer">
+                <h3>Contact Info</h3>
+                <div class="footer1-contact-info">
+                    <div class="contact-info-single">
+                        <div class="contact-info-icon">
+                            <i class="fa-solid fa-phone-volume"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <a href="tel:+3(924)4596512">+3(924)4596512</a>
+                        </div>
+                    </div>
+
+                    <div class="contact-info-single">
+                        <div class="contact-info-icon">
+                            <i class="fa-solid fa-envelope"></i>
+                        </div>
+                        <div class="contact-info-text">
+                            <a href="mailto:info@example.com">info@example.com</a>
+                        </div>
+                    </div>
+
+                    <div class="single-footer">
+                        <h3>Our Location</h3>
+
+                        <div class="contact-info-single">
+                            <div class="contact-info-icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="contact-info-text">
+                                <a href="mailto:info@example.com">55 East Birchwood Ave.Brooklyn, <br> New York
+                                    11201,United States</a>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="single-footer">
+                        <h3>Social Links</h3>
+
+                        <div class="social-links-mobile-menu">
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <!--===== MOBILE HEADER STARTS =======-->
+
+    <!--===== HERO AREA STARTS =======-->
+    <div class="about-header-area"
+        style="background-image: url(assets/img/bg/inner-header.png); background-repeat: no-repeat; background-size: cover; background-position: center;">
+        <img src="assets/img/elements/elements1.png" alt="" class="elements1 aniamtion-key-1">
+        <img src="assets/img/elements/star2.png" alt="" class="star2 keyframe5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 m-auto">
+                    <div class="about-inner-header heading9 text-center">
+                        <h1>Outdoor Campaign </h1>
+                        <a href="case.html">Home <i class="fa-solid fa-angle-right"></i> <span>Services</span></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--===== HERO AREA ENDS =======-->
 
     <!--===== BLOG AREA STARTS =======-->
-<div class="blog1-scetion-area sp1 bg2">
-    <div class="container">
-        <div class="row">
-        <div class="col-lg-4 col-md-6">
-            <div class="blog-author-boxarea">
-            <div class="img1">
-                <img src="assets/images/icon/hoardings.jpg" alt="Social Media Marketing">
+    <div class="blog1-scetion-area sp1 bg2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-author-boxarea">
+                        <div class="img1">
+                            <img src="assets/images/services/hoarding.jpeg" alt="Social Media Marketing">
+                        </div>
+                        <div class="content-area pb-5">
+                            <a href="#">Hoardings</a>
+                            <p> Make a bold statement with hoardings that demand attention! Our eye-catching designs
+                                turn every street into your personal billboard, ensuring your brand is seen by
+                                thousands, day and night.</p>
+                        </div>
+                    </div>
+                    <div class="space30"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-author-boxarea">
+                        <div class="img1">
+                            <img src="assets/images/services/unipoles.jpeg" alt="PPC (Google Adwards)">
+                        </div>
+                        <div class="content-area">
+                            <a href="#">Unipoles</a>
+                            <p>Stand out from the crowd with Unipoles that tower above the competition! Our massive,
+                                high-impact displays ensure your brand dominates the skyline, leaving an unforgettable
+                                impression on all who pass by.</p>
+                        </div>
+                    </div>
+                    <div class="space30"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-author-boxarea">
+                        <div class="img1">
+                            <img src="assets/images/services/kisok.jpeg" alt="SEO & SEM">
+                        </div>
+                        <div class="content-area">
+                            <a href="#">kiosk</a>
+                            <p>Unlock unmatched visibility with custom kiosks that capture attention from every angle!
+                                Our innovative designs create a dynamic, interactive experience, putting your brand
+                                front and center in the most high-traffic locations.</p>
+                        </div>
+                    </div>
+                    <div class="space30"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-author-boxarea">
+                        <div class="img1">
+                            <img src="assets/images/icon/mobiho.jpg" alt="Mobile Hoardings & Carter Activity">
+                        </div>
+                        <div class="content-area">
+                            <a href="#">Mobile Hoardings & Activity</a>
+                            <p>Take your brand on the move with mobile hoardings that turn every street into a
+                                high-impact billboard! Paired with exciting, interactive activities, we create a buzz
+                                that follows your audience everywhere, making your brand impossible to ignore.</p>
+                        </div>
+                    </div>
+                    <div class="space30"></div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="blog-author-boxarea">
+                        <div class="img1">
+                            <img src="assets/images/services/outdoor_branding.jpg" alt="Social Media Ad Campaign">
+                        </div>
+                        <div class="content-area pb-5">
+                            <a href="#">Other Outdoor Branding</a>
+                            <p>Take your brand beyond the ordinary with our exceptional outdoor branding solutions! From
+                                billboards to street furniture, we create striking, unforgettable displays that command
+                                attention and spark curiosity wherever you go.</p>
+                        </div>
+                    </div>
+                    <div class="space30"></div>
+                </div>
             </div>
-            <div class="content-area">
-                <a href="#">Hoardings</a>
-                <p>Enhance your online visibility & drive organic traffic with our advanced SEO techniques. We optimize your website to rank higher.</p>
-            </div>
-            </div>
-            <div class="space30"></div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-            <div class="blog-author-boxarea">
-            <div class="img1">
-                <img src="assets/images/icon/unipole.jpg" alt="PPC (Google Adwards)">
-            </div>
-            <div class="content-area">
-                <a href="#">Unipoles</a>
-                <p>Reach your audience instantly and drive qualified leads with targeted PPC campaigns. Our experts craft compelling ad copy and optimize.</p>
-            </div>
-            </div>
-            <div class="space30"></div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-            <div class="blog-author-boxarea">
-            <div class="img1">
-                <img src="assets/images/icon/kiosk.png" alt="SEO & SEM">
-            </div>
-            <div class="content-area">
-                <a href="#">kiosk</a>
-                <p>Build a strong brand presence and engage with your audience on social media platforms. We create strategic social media campaigns.</p>
-            </div>
-            </div>
-            <div class="space30"></div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-            <div class="blog-author-boxarea">
-            <div class="img1">
-                <img src="assets/images/icon/mobiho.jpg" alt="Mobile Hoardings & Carter Activity">
-            </div>
-            <div class="content-area">
-                <a href="#">Mobile Hoardings & <i class="fas fa-caret-square-left    "></i> Activity</a>
-                <p>Make a lasting impression with a professionally designed and user-friendly website. Our web design and development services ensure.</p>
-            </div>
-            </div>
-            <div class="space30"></div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-            <div class="blog-author-boxarea">
-            <div class="img1">
-                <img src="assets/images/icon/branding.jpg" alt="Social Media Ad Campaign">
-            </div>
-            <div class="content-area">
-                <a href="#">Other Outdoor Branding</a>
-                <p>Enhance your online visibility & drive organic traffic with our advanced SEO techniques. We optimize your website to rank higher.</p>
-            </div>
-            </div>
-            <div class="space30"></div>
-        </div>
         </div>
     </div>
-</div>
     <!--===== BLOG AREA ENDS =======-->
 
-<!--===== CTA AREA STARTS =======-->
-<div class="cta-section-area">
-  <img src="assets/img/bg/cta-bg1.png" alt="" class="cta-bg1 aniamtion-key-2">
-  <img src="assets/img/bg/cta-bg2.png" alt="" class="cta-bg2 aniamtion-key-1">
-  <div class="container">
-    <div class="row">
-      <div class="col-lg-12 m-auto">  
-        <div class="cta-header-area text-center sp4 heading2">
-          <h2 class="text-anime-style-3">Ready To Take Your Marketing <br class="d-md-block d-none">To The Next Level ? </h2>
-          <p data-aos="fade-up" data-aos-duration="1000">Effective marketing strategies not only increase brand visibility but also attract the right audience,<br> create memorable experiences, and drive higher engagement and conversions.</p>
-          <div class="btn-area text-center" data-aos="fade-up" data-aos-duration="1200">
-            <a href="#" class="header-btn1">Free Consultation <span><i class="fa-solid fa-arrow-right"></i></span></a>
-          </div>
+    <!--===== CTA AREA STARTS =======-->
+    <div class="cta-section-area">
+        <img src="assets/img/bg/cta-bg1.png" alt="" class="cta-bg1 aniamtion-key-2">
+        <img src="assets/img/bg/cta-bg2.png" alt="" class="cta-bg2 aniamtion-key-1">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 m-auto">
+                    <div class="cta-header-area text-center sp4 heading2">
+                        <h2 class="text-anime-style-3">Ready To Take Your Marketing <br class="d-md-block d-none">To The
+                            Next Level ? </h2>
+                        <p data-aos="fade-up" data-aos-duration="1000">Effective marketing strategies not only increase
+                            brand visibility but also attract the right audience,<br> create memorable experiences, and
+                            drive higher engagement and conversions.</p>
+                        <div class="btn-area text-center" data-aos="fade-up" data-aos-duration="1200">
+                            <a href="#" class="header-btn1">Free Consultation <span><i
+                                        class="fa-solid fa-arrow-right"></i></span></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-      </div>
     </div>
-  </div>
-</div>
-<!--===== CTA AREA ENDS =======-->
+    <!--===== CTA AREA ENDS =======-->
 
-<!--===== FOOTER AREA STARTS =======-->
-<div class="footer1-section-area">
+   <!--===== FOOTER AREA STARTS =======-->
+   <div class="footer1-section-area">
     <div class="container">
       <div class="row">
         <div class="col-lg-3 col-md-6">
@@ -363,7 +396,7 @@ object-fit: cover; /* Ensures the image fills the container without distortion *
             </ul>
           </div>
         </div>
-  
+
         <div class="col-lg-2 col-md-6">
           <div class="footer-logo-area1">
             <h3>About Link</h3>
@@ -375,18 +408,20 @@ object-fit: cover; /* Ensures the image fills the container without distortion *
             </ul>
           </div>
         </div>
-  
-        <div class="col-lg-4 col-md-6">
+
+        <div class="col-lg-3 col-md-6">
           <div class="footer-logo-area2">
-            <h3>Get in touch</h3>
+            <h3>Services</h3>
             <ul>
-              <li><a href="#"><img src="assets/img/icons/email.svg" alt=""><span>brandmarkcreation@gmail.com <br>marketing.bmcads@gmail.com</span></a></li>
-              <li><a href="#"><img src="assets/img/icons/location.svg" alt=""><span>C-422,4th FLOOR,<br class="d-lg-block d-none"> EDGE CORPORATE, OPP. Maruti Suzuki Arena, <br class="d-lg-block d-none">Vidhan Sabha Road, Mowa, Raipur C.G.</span></a></li>
-              <li><a href="#"><img src="assets/img/icons/phone.svg" alt=""><span>+91 7974095903<br>+91 9340061273</span></a></li>
+               <li><a href="service1.html">Digital Marketing</a></li>
+               <li><a href="service2.html">Outdoor Campaign</a></li>
+               <li><a href="service3.html">Web & App Development</a></li>
+               <li><a href="service4.html">Mobile Marketing</a></li>
+               <li><a href="service5.html">Print Solutions</a></li>
             </ul>
           </div>
         </div>
-        <div class="col-lg-3 col-md-6">
+        <div class="col-lg-4 col-md-6">
           <div class="footer-logo-area3">
             <h3>Subscribe Our Newsletter</h3>
             <form action="#">
@@ -414,26 +449,27 @@ object-fit: cover; /* Ensures the image fills the container without distortion *
     </div>
   </div>
   <!--===== FOOTER AREA ENDS =======-->
+</div>
 
-<!--===== JS SCRIPT LINK =======-->
+    <!--===== JS SCRIPT LINK =======-->
 
-<script src="assets/js/plugins/bootstrap.min.js"></script>
-<script src="assets/js/plugins/fontawesome.js"></script>
-<script src="assets/js/plugins/aos.js"></script>
-<script src="assets/js/plugins/counter.js"></script>
-<script src="assets/js/plugins/gsap.min.js"></script>
-<script src="assets/js/plugins/ScrollTrigger.min.js"></script>
-<script src="assets/js/plugins/Splitetext.js"></script>
-<script src="assets/js/plugins/sidebar.js"></script>
-<script src="assets/js/plugins/magnific-popup.js"></script>
-<script src="assets/js/plugins/mobilemenu.js"></script>
-<script src="assets/js/plugins/owlcarousel.min.js"></script>
-<script src="assets/js/plugins/gsap-animation.js"></script>
-<script src="assets/js/plugins/nice-select.js"></script>
-<script src="assets/js/plugins/waypoints.js"></script>
-<script src="assets/js/plugins/slick-slider.js"></script>
-<script src="assets/js/plugins/circle-progress.js"></script>
-<script src="assets/js/main.js"></script>
+    <script src="assets/js/plugins/bootstrap.min.js"></script>
+    <script src="assets/js/plugins/fontawesome.js"></script>
+    <script src="assets/js/plugins/aos.js"></script>
+    <script src="assets/js/plugins/counter.js"></script>
+    <script src="assets/js/plugins/gsap.min.js"></script>
+    <script src="assets/js/plugins/ScrollTrigger.min.js"></script>
+    <script src="assets/js/plugins/Splitetext.js"></script>
+    <script src="assets/js/plugins/sidebar.js"></script>
+    <script src="assets/js/plugins/magnific-popup.js"></script>
+    <script src="assets/js/plugins/mobilemenu.js"></script>
+    <script src="assets/js/plugins/owlcarousel.min.js"></script>
+    <script src="assets/js/plugins/gsap-animation.js"></script>
+    <script src="assets/js/plugins/nice-select.js"></script>
+    <script src="assets/js/plugins/waypoints.js"></script>
+    <script src="assets/js/plugins/slick-slider.js"></script>
+    <script src="assets/js/plugins/circle-progress.js"></script>
+    <script src="assets/js/main.js"></script>
 
 </body>
 
